@@ -4,13 +4,13 @@
 */
 
 enum Days {
-  Monday,
-  Tuesday,
-  Wednesday,
-  Thursday,
-  Friday,
-  Saturday,
-    Sunday 
+  Monday = 'Monday',
+  Tuesday = 'Tuesday',
+  Wednesday = 'Wednesday',
+  Thursday = 'Thursday',
+  Friday = 'Friday',
+  Saturday = 'Saturday',
+    Sunday = 'Sunday' 
 }
 
 const weekend = [Days.Saturday, Days.Sunday]
